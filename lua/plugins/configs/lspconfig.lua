@@ -1,7 +1,7 @@
 dofile(vim.g.base46_cache .. "lsp")
 require "nvchad.lsp"
 
-local M = {}
+local M = {"lua-language-server", "gopls", "tailwindcss-language-server", "typescript-language-server", "pyright", "tsserver"}
 local utils = require "core.utils"
 
 -- export on_attach & capabilities for custom lspconfigs

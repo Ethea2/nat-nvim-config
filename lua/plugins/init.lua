@@ -262,6 +262,12 @@ local default_plugins = {
       require("which-key").setup(opts)
     end,
   },
+
+  --custom 
+  {
+    "wakatime/vim-wakatime",
+    lazy = false,
+  }
 }
 
 local config = require("core.utils").load_config()
